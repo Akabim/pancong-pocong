@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" class="overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancong Pocong</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container mx-auto">
+            <div class="flex items-center justify-between relative py-3 px-4">
+                <div class="px-4 flex">
+                    <a href="./index.html"> <img src="./dist/img/logo-pancong.png" width="126px" height="29px"
+                            class="mt-1 lg:scale-110" alt="" />
+                    </a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button"
+                        class="scale-75 lg:hidden block absolute right-4">
+                        <span
+                            class="hamburger-line transition duration-300 ease-in-out origin-top-left rotate-45;"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[200px] w-full lg:right-1/2 lg:top-1/2 right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex justify-center">
+                            <li class="group lg:text-center">
+                                <a href="#home"
+                                    class="text-black lg:text-white py-2 px-8 group-hover:text-primary font-semibold flex transition ease-in-out">Home</a>
+                            </li>
+                            <li class="group lg:text-center">
+                                <a href="#about"
+                                    class="text-black lg:text-white py-2 px-8 group-hover:text-primary font-semibold flex transition ease-in-out">About
+                                    Us</a>
+                            </li>
+                            <li class="group lg:text-center">
+                                <a href="#feature"
+                                    class="text-black lg:text-white py-2 px-8 group-hover:text-primary font-semibold flex transition ease-in-out">Features</a>
+                            </li>
+                            <li class="group lg:text-center">
+                                <a href="#testimonials"
+                                    class="text-black lg:text-white py-2 px-8 group-hover:text-primary font-semibold flex transition ease-in-out">Testimonials</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home" style="background-image: url('./dist/img/bg-hero.png'); background-size: cover;"
+        class="w-full pt-40 pb-40 lg:pb-52  lg:h-screen lg:bg-center">
+        <div class="container mx-auto">
+            <div class="self-center w-full block justify-center">
+                <img src="./dist/img/logo-pancong.png" class=" flex mx-auto lg:mt-16 w-52 lg:w-96" alt="">
+                <h1 class="text-center text-xl lg:text-3xl text-white font-thin">Kue pancong yang <br><span
+                        class="font-bold">#literally<span class="text-primary">DIE</span></span>licious</h1>
+                <div id="btn" class=" flex items-center justify-center self-center mx-auto mt-7">
+                    <a href=""
+                        class="mx-auto lg:text-xl px-6 py-3 rounded-full hover:bg-primary/30 text-white border-white border text-normal text-center transition">Pelajari
+                        Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="pb-12 pt-16  bg-bgcolor">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="w-full self-start px-4 lg:w-1/2 lg:pb-10">
+                    <div class="w-full bg-white px-8 relative">
+                        <svg width="500" height="500" viewBox="0 0 392 392" fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="z-0 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-40">
+                            <circle cx="196" cy="196" r="77.9" stroke="#FF3497" />
+                            <circle cx="196" cy="196" r="117.1" stroke="#FF3497" />
+                            <circle cx="196" cy="196" r="156.3" stroke="#FF3497" />
+                            <circle cx="196" cy="196" r="195.5" stroke="#FF3497" />
+                        </svg>
+                        <video src="./dist/img/Snapinsta.app_video_064BA44C0B59AB0CBA32240E24B22EBB_video_dashinit.mp4"
+                            controls muted autoplay class=" flex mx-auto rounded-lg lg:h-[600px] z-10 relative"></video>
+                    </div>
+
+                </div>
+                <div class="w-full self-center px-4 mt-10 lg:mt-0 lg:pl-16 lg:w-1/2">
+                    <h1 class="text-center text-3xl font-bold lg:text-6xl lg:text-start text-black">
+                        Bahan Baku <span class="text-primary">Berkualitas</span> Dan <span class="text-primary">Bermutu
+                            Tinggi</span>
+                    </h1>
+                    <p class=" lg:pr-4 text-center mt-9 text-normal text-sm lg:text-xl lg:text-start text-gray-500">
+                        Pancong Pocong menggunakan bahan baku yang berkualitas serta bermutu tinggi, sehingga
+                        menghasilkan citarasa terbaik dibandingkan dengan kompetitor produk pancong lainnya.
+                        <br> <br>
+                        kualitas bahan baku yang disediakan menjadikan pancong pocong begitu disukai berbagai
+                        lapisan customer mulai dari anak-anak hingga dewasa
+                        <br><br>
+                    </p>
+                </div>
+                <div class="px-4 mt-9 w-full self-center">
+                    <div class="w-full self-center mx-auto bg-primary py-12 rounded-lg">
+                        <h1 class="text-center font-semibold lg:text-2xl lg:w-1/2 mx-auto">Join Kemitraan Pancong Pocong
+                            Bersama Mitra Sukses Kami Yang Sudah Tersebar <span class="font-bold text-white">100++
+                                Cabang</span> Di Seluruh Indonesia!</h1>
+                        <img src="./dist/img/maps-svg.svg" class="mt-9 w-full" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="bg-white">
+        <div class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
+            <div class="mx-auto max-w-3xl text-center">
+                <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl">
+                    Keuntungan Maksimal Dengan Kemitraan
+                </h2>
+
+                <p class="mt-4 text-gray-500 sm:text-xl">
+                    Hadirkan Pancong Pocong ke kotamu, dan dapatkan penghasilan maksimum
+                </p>
+            </div>
+
+            <div class="mt-8 sm:mt-12">
+                <dl class="grid grid-cols-1 gap-4 sm:grid-cols-3 sm:divide-x sm:divide-gray-100">
+                    <div class="flex flex-col px-4 py-8 text-center">
+                        <dt class="order-last text-lg font-medium text-gray-500">
+                            Balik Modal
+                        </dt>
+
+                        <dd class="text-4xl font-extrabold text-primary md:text-5xl">
+                            3 Bulan
+                        </dd>
+                    </div>
+
+                    <div class="flex flex-col px-4 py-8 text-center">
+                        <dt class="order-last text-lg font-medium text-gray-500">
+                            Omset Perbulan
+                        </dt>
+
+                        <dd class="text-4xl font-extrabold text-primary md:text-5xl">80 Juta++</dd>
+                    </div>
+
+                    <div class="flex flex-col px-4 py-8 text-center">
+                        <dt class="order-last text-lg font-medium text-gray-500">
+                            Keuntungan Bersih
+                        </dt>
+
+                        <dd class="text-4xl font-extrabold text-primary md:text-5xl">24 Juta++</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <section id="home" style="background-image: url('./dist/img/v-kemitraan.png'); background-size: cover; background-position: center;"
+    class="w-full pt-40 pb-24 lg:bg-center">
+    <div class="container mx-auto px-4">
+        <div class="self-center w-full block justify-center">
+            <h1 class="text-center text-3xl lg:text-5xl text-white font-bold">Sekali Join Kemitraan, Dapatkan</h1>
+            <div class="container mx-auto mt-9"> 
+                <div class="flex flex-wrap justify-center">
+                  <div data-aos="fade-down" class="w-full px-4 lg:w-1/2 xl:w-1/4 lg:pt-15 group">
+                    <div class="py-8 px-6">
+                      <img src="./dist/img/icons/transaction (1).png" alt="value1" class="w-[130px] lg:w-[200px] mb-3 items-center mx-auto group-hover:-translate-y-6 transition duration-300 ease-in-out" />
+                      <h3 class="mb-3 block text-center text-white text-2xl font-bold w-[190px] lg:w-[260px] lg:text-2xl mx-auto">Keuntungan 100%</h3>
+                    </div>
+                  </div>
+                  <div data-aos="fade-down" class="w-full px-4 lg:w-1/2 xl:w-1/4 lg:pt-15 group">
+                    <div class="py-8 px-6">
+                      <img src="./dist/img/icons/kitchen-tool (1).png" alt="value1" class="w-[130px] lg:w-[200px] mb-3 items-center mx-auto group-hover:-translate-y-6 transition duration-300 ease-in-out" />
+                      <h3 class="mb-3 block text-center text-white text-2xl font-bold w-[190px] lg:w-[260px] lg:text-2xl mx-auto">Peralatan Lengkap</h3>
+                    </div>
+                  </div>
+                  <div data-aos="fade-down" class="w-full px-4 lg:w-1/2 xl:w-1/4 lg:pt-15 group">
+                    <div class="py-8 px-6">
+                      <img src="./dist/img/icons/content-marketing.png" alt="value1" class="w-[130px] lg:w-[200px] mb-3 items-center mx-auto group-hover:-translate-y-6 transition duration-300 ease-in-out" />
+                      <h3 class="mb-3 block text-center text-white text-2xl font-bold w-[190px] lg:w-[260px] lg:text-2xl mx-auto">Support Marketing & Promosi</h3>
+                    </div>
+                  </div>
+                  <div data-aos="fade-down" class="w-full px-4 lg:w-1/2 xl:w-1/4 lg:pt-15 group">
+                    <div class="py-8 px-6">
+                      <img src="./dist/img/icons/accounting (1).png" alt="value1" class="w-[130px] lg:w-[200px] mb-3 items-center mx-auto group-hover:-translate-y-6 transition duration-300 ease-in-out" />
+                      <h3 class="mb-3 block text-center text-white text-2xl font-bold w-[190px] lg:w-[260px] lg:text-2xl mx-auto">Sistem Operasional Yang Handal</h3>
+                    </div>
+                  </div>
+                </div>
+                            <div id="btn" class=" flex items-center justify-center self-center mx-auto mt-7">
+                <a href=""
+                    class="mx-auto lg:text-xl px-6 py-3 rounded-full hover:bg-primary/30 text-white border-white border text-normal text-center transition">Join Kemitraan Sekarang!</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+    <script src="./dist/js/script.js"></script>
+</body>
+
+</html>
