@@ -8,12 +8,17 @@
     background-position: center;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
     overflow-x: hidden;
+    
 }
 
 body {
-    font-family: 'Poppins'
+    font-family: 'Poppins';
 }
 
 .navbar-fixed {
