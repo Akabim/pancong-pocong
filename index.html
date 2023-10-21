@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/keen-slider.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -59,7 +60,7 @@
         class="w-full pt-40 pb-40 lg:pb-52  lg:h-screen lg:bg-center">
         <div class="container mx-auto">
             <div class="self-center w-full block justify-center">
-                <img src="./dist/img/logo-pancong.png" class=" flex mx-auto lg:mt-16 w-52 lg:w-96" alt="">
+                <img src="./dist/img/logo-pancong.png" class=" flex mx-auto lg:mt-40 w-52 lg:w-96" alt="">
                 <h1 class="text-center text-xl lg:text-3xl text-white font-thin">Kue pancong yang <br><span
                         class="font-bold">#literally<span class="text-primary">DIE</span></span>licious</h1>
                 <div id="btn" class=" flex items-center justify-center self-center mx-auto mt-7">
@@ -208,10 +209,374 @@
                 </div>
             </div>
     </section>
+    <section class="pt-12 pb-12">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="self-center w-full mb-7">
+                    <h1 class="text-center text-4xl font-bold"><span class="text-primary">Produk</span> Kami</h1>
+                </div>
+                <div id="keen-slider" class="keen-slider lg:px-12 mt-7">
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 188.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 189.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 190.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 191.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 192.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 193.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 194.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 195.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 196.png" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/produk/Frame 197.png" alt="">
+                    </div>
+                </div>
+                <div class="mt-8 flex gap-4 justify-center mx-auto">
+                    <button aria-label="Previous slide" id="keen-slider-previous"
+                        class="rounded-full border border-primary p-3 text-primary transition hover:bg-primary hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-5 w-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </button>
+                    <button aria-label="Next slide" id="keen-slider-next"
+                        class="rounded-full border border-primary p-3 text-primary transition hover:bg-primary hover:text-white">
+                        <svg class="h-5 w-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="pt-12 pb-24">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4">
+                    <h1 class="text-center font-bold  text-2xl lg:text-4xl  text-black"><span
+                            class="text-primary">Keuntungan</span> Menjadi <span class="text-primary">Mitra</span>
+                        Pancong Pocong</h1>
+                    <div class="w-full self-center mt-9 lg:mt-12">
+                        <div class="lg:flex">
+                            <div
+                                class="border-gray-300 border lg:mx-3 my-2 w-full rounded-lg lg:inline-flex px-4 py-2 lg:w-1/2">
+                                <img src="./dist/img/icons/keuntungan-mitra/001-booth.png"
+                                    class=" w-20 h-20 flex mx-auto" alt="">
+                                <p
+                                    class="font-normal text-sm text-center lg:text-xl lg:text-start mt-3 lg:ml-6 lg:mt-3">
+                                    Bahan baku bermutu, sehingga mitra bisa menjaga kualitas produk lebih mudah.
+                                </p>
+                            </div>
+                            <div
+                                class="border-gray-300 border lg:mx-3 my-2 w-full rounded-lg lg:inline-flex px-4 py-2 lg:w-1/2">
+                                <img src="./dist/img/icons/keuntungan-mitra/002-flour.png"
+                                    class=" w-20 h-20 flex mx-auto" alt="">
+                                <p
+                                    class="font-normal inline-flex text-sm text-center lg:text-xl lg:text-start mt-3 lg:ml-6 lg:mt-3">
+                                    Paket usaha lengkap siap jualan dengan peralatan, booth, bahan baku serta konten
+                                    sosial media untuk memulai berjualan.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lg:flex">
+                            <div
+                                class="border-gray-300 border lg:mx-3 my-2 w-full rounded-lg lg:inline-flex px-4 py-2 lg:w-1/2">
+                                <img src="./dist/img/icons/keuntungan-mitra/003-budget.png"
+                                    class=" w-20 h-20 flex mx-auto" alt="">
+                                <p
+                                    class="font-normal text-sm text-center lg:text-xl lg:text-start mt-3 lg:ml-6 lg:mt-3">
+                                    BEP cepat dan telah terbukti, tidak sekedar hitungan.
+                                </p>
+                            </div>
+                            <div
+                                class="border-gray-300 border lg:mx-3 my-2 w-full rounded-lg lg:inline-flex px-4 py-2 lg:w-1/2">
+                                <img src="./dist/img/icons/keuntungan-mitra/maintenance.png"
+                                    class=" w-20 h-20 flex mx-auto" alt="">
+                                <p
+                                    class="font-normal text-sm text-center lg:text-xl lg:text-start mt-3 lg:ml-6 lg:mt-3">
+                                    Memiliki maintenance runtin terhadap oprasional rutin disetiap outlet mitra ,
+                                    sehingga
+                                    mitra bisa konsultasi dan mendapatkan arahan dalam pengelolaan outletnya.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="lg:flex">
+                            <div class="border-gray-300 border lg:mx-3 my-2 w-full rounded-lg  px-4 py-4 lg:w-1/3 ">
+                                <img src="./dist/img/icons/keuntungan-mitra/team.png" class=" w-20 h-20  mx-auto"
+                                    alt="">
+                                <p class="font-normal text-sm text-center lg:text-xl mt-3 ">
+                                    Ratusan otlet pancong pocong tersebar di seluruh indonesia.
+                                </p>
+                            </div>
+                            <div class="border-gray-300 border lg:mx-3 my-2 w-full rounded-lg  px-4 py-4 lg:w-1/3">
+                                <img src="./dist/img/icons/keuntungan-mitra/transactional.png"
+                                    class=" w-20 h-20  mx-auto" alt="">
+                                <p class="font-normal mt-3 text-sm text-center lg:text-xl">
+                                    Cukup 1 kali bayar royalty fee untuk jangka panjang
+                                </p>
+                            </div>
+                            <div class="border-gray-300 border lg:mx-3 my-2 w-full rounded-lg  px-4 py-4 lg:w-1/3">
+                                <img src="./dist/img/icons/keuntungan-mitra/increase.png" class=" w-20 h-20  mx-auto"
+                                    alt="">
+                                <p class="font-normal  mt-3 text-sm text-center lg:text-xl">
+                                    Usaha praktis modern dan menguntungkan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pb-12">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4">
+                    <h1 class="text-center font-bold text-2xl lg:text-4xl"><span class="text-primary">Kenapa</span>
+                        Harus Memilih Pancong Pocong?</h1>
+                    <div class="lg:flex mt-8">
+                        <div class="lg:w-1/2 mx-4">
+                            <h5 class="text-center font-semibold mt-7 text-xl lg:text-4xl">Tentu lebih <span
+                                    class="text-primary">stabil</span></h5>
+                            <p class="text-gray-500 text-center mt-5 lg:text-xl">Produk yang dijual merupakan produk
+                                kekinian yang memiliki pasarnya tersendiri, tidak
+                                mengikuti tren, serta mudah diterima secara luas. sehingga menghasilkan pendapatan yang
+                                lebih stabil daripada brand-brand lain</p>
+                        </div>
+                        <div class="lg:w-1/2 mx-4">
+                            <h5 class="text-center font-semibold mt-7 text-xl lg:text-4xl">Tentu lebih <span
+                                    class="text-primary">bermutu</span></h5>
+                            <p class="text-gray-500 text-center mt-5 lg:text-xl">Memiliki bahan baku dengan mutu terbaik
+                                sehingga menghasilkan produk berkualitas
+                                premium dengan rasa yang nikmat. sehingga bisa memanggil pembeli untuk datang lagi dan
+                                lagi</p>
+                        </div>
+                    </div>
 
+                    <h5 class="text-center font-semibold mt-7 text-xl lg:text-4xl">Tentu lebih <span
+                            class="text-primary">mudah</span></h5>
+                    <p class="text-gray-500 text-center mt-5 lg:text-xl">Mitra didukung penuh dalam menjalankan
+                        oprasional outlet pancong pocong, memiliki
+                        fasilitas pendamping outlet yang siap menyediakan layanan konsultasi, pengarahan dan
+                        membantu segala kebutuhan outlet. sehingga memudahkan mitra menjalankan usaha
+                        pancong pocong</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background-image: url('./dist/img/PHOTO-2023-09-30-18-09-11.jpg');"
+        class="overflow-hidden bg-cover bg-center bg-no-repeat">
+        <div class="bg-black/25 p-8 md:p-12 lg:px-16 lg:py-24">
+            <div class="text-center ltr:sm:text-left rtl:sm:text-right">
+                <h2 class="text-2xl font-bold text-white sm:text-3xl md:text-5xl">
+                    Bingung? Mulai Dari Sini!!
+                </h2>
+
+                <div class="flex justify-center">
+                    <a target="_blank"
+                        class="inline-flex mt-5 lg:mt-8 text-base font-semibold lg:text-xl text-white bg-transparent border border-solid border-spacing-11 rounded-full px-8 py-5"
+                        href="https://wa.me/628113311576">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="lg:w-8 lg:h-8 mr-2
+                      " width="24" height="24" fill="#ffff" viewBox="0 0 24 24">
+                            <path
+                                d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                        </svg>
+                        <span class="lg:mt-1">Hubungi Kami</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pt-12 pb-12">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4">
+                    <section id="about" class="lg:pt-24">
+                        <div class="mx-auto max-w-screen-xl px-12 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+                            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                                <div class="relative overflow-hidden rounded-lg lg:order-last">
+                                    <img src="./dist/img/paket-a.png" alt="">
+                                </div>
+
+                                <div class="lg:py-24">
+                                    <h2 class="lg:text-5xl text-2xl font-medium lg:text-start text-center mb-5">Paket
+                                        <span class="text-primary font-bold">A</span></h2>
+                                    <h2 class="text-center lg:text-start lg:text-3xl">Harga <span
+                                            class="line-through text-gray-500">33</span><span
+                                            class="font-bold text-primary"> 28 Juta</span></h2>
+                                    <ul class="mt-8 list-disc ms-8 lg:me-[5rem] list">
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Bahan baku </span>400 porsi
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Digital ekosistem </span>
+                                                (aplikasi kasir, cctv, router wifi)
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Training </span>Berkualitas
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Konten </span>Promosi
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p class="mt-8 text-gray-500 lg:pr-28 text-justify">
+                                        paket kemitraan lengkap dengan kontainer uk. 2mx1,5m berbahan besi yang awat
+                                        untuk usaha jangka panjang dilengkapi peralatan yang komplit untuk produksi dan
+                                        langsung berjualan
+                                    </p>
+                                </div>
+                            </div>
+                    </section>
+                    <section id="about" class="lg:pt-24">
+                        <div class="mx-auto max-w-screen-xl px-12 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+                            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                                <div class="relative overflow-hidden rounded-lg lg:order-first">
+                                    <img src="./dist/img/paket-a.png" alt="">
+                                </div>
+
+                                <div class="lg:py-24">
+                                    <h2 class="lg:text-5xl text-2xl font-medium lg:text-start text-center mb-5">Paket
+                                        <span class="text-primary font-bold">B</span></h2>
+                                    <h2 class="text-center lg:text-start lg:text-3xl">Harga <span
+                                            class="line-through text-gray-500">32</span><span
+                                            class="font-bold text-primary"> 27 Juta</span></h2>
+                                    <ul class="mt-8 list-disc ms-8 lg:me-[5rem] list">
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Bahan baku </span>400 porsi
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Digital ekosistem </span>
+                                                (aplikasi kasir, cctv, router wifi)
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Training </span>Berkualitas
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Konten </span>Promosi
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p class="mt-8 text-gray-500 lg:pr-28 text-justify">
+                                        paket kemitraan lengkap dengan kontainer uk. 1,5mx1,5m berbahan besi yang awat
+                                        untuk usaha jangka panjang dilengkapi peralatan yang komplit untuk produksi dan
+                                        langsung berjualan
+                                    </p>
+                                </div>
+                            </div>
+                    </section>
+                    <section id="about" class="lg:pt-24">
+                        <div class="mx-auto max-w-screen-xl px-12 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+                            <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                                <div class="relative overflow-hidden rounded-lg lg:order-last">
+                                    <img src="./dist/img/paket-a.png" alt="">
+                                </div>
+
+                                <div class="lg:py-24">
+                                    <h2 class="lg:text-5xl text-2xl font-medium lg:text-start text-center mb-5">Paket
+                                        <span class="text-primary font-bold">C</span></h2>
+                                    <h2 class="text-center lg:text-start lg:text-3xl">Harga <span
+                                            class="line-through text-gray-500">28</span><span
+                                            class="font-bold text-primary"> 23 Juta</span></h2>
+                                    <ul class="mt-8 list-disc ms-8 lg:me-[5rem] list">
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Bahan baku </span>400 porsi
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Digital ekosistem </span>
+                                                (aplikasi kasir, cctv, router wifi)
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Training </span>Berkualitas
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p class="text-gray-400 leading-relaxed lg:text-xl">
+                                                <span class="text-secondary font-semibold">Konten </span>Promosi
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p class="mt-8 text-gray-500 lg:pr-28 text-justify">
+                                        paket untuk mitra yang ingin buka di ruko atau telah memiliki booth sendiri
+                                        dilengkapi
+                                        peralatan yang komplit untuk produksi dan langsung berjualan.
+                                    </p>
+                                </div>
+                            </div>
+                    </section>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="./dist/js/script.js"></script>
+    <script type="module">
+        import KeenSlider from 'https://cdn.jsdelivr.net/npm/keen-slider@6.8.6/+esm'
+
+        const keenSlider = new KeenSlider(
+            '#keen-slider',
+            {
+                loop: true,
+                slides: {
+                    origin: 'center',
+                    perView: 2,
+                    spacing: 16,
+                },
+                breakpoints: {
+                    '(min-width: 1024px)': {
+                        slides: {
+                            origin: 'auto',
+                            perView: 5,
+                            spacing: 32,
+                        },
+                    },
+                },
+            },
+            []
+        )
+
+        const keenSliderPrevious = document.getElementById('keen-slider-previous')
+        const keenSliderNext = document.getElementById('keen-slider-next')
+
+        keenSliderPrevious.addEventListener('click', () => keenSlider.prev())
+        keenSliderNext.addEventListener('click', () => keenSlider.next())
+    </script>
 </body>
 
 </html>
