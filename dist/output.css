@@ -616,6 +616,10 @@ video {
   z-index: 10;
 }
 
+.z-40 {
+  z-index: 40;
+}
+
 .order-last {
   order: 9999;
 }
@@ -808,14 +812,6 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.scroll-m-4 {
-  scroll-margin: 1rem;
-}
-
-.scroll-m-96 {
-  scroll-margin: 24rem;
 }
 
 .list-disc {
