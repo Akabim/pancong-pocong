@@ -40,3 +40,17 @@ body {
   .hamburger-active > span:nth-child(3) {
     @apply -rotate-45;
   }
+
+  .text-shadow {
+    text-shadow: 4px 4px 0 #FF3497;
+  }
+
+  .outline-text {
+    -webkit-text-stroke: 1px #FF3497; /* width and color of the outline */
+  }
+
+  @media only screen and (max-width: 600px) {
+    .text-shadow {
+      text-shadow: 2px 2px 0 #FF3497;
+    }
+  }
