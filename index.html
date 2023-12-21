@@ -556,6 +556,49 @@
             </div>
         </div>
     </section>
+    <section id="galeri" class="pt-12 pb-12">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap">
+                <div class="self-center w-full mb-7 px-4">
+                    <h1 class="text-center text-2xl lg:text-4xl font-bold"><span class="text-primary">Testimoni</span>
+                        Mitra Pancong Pocong</h1>
+                </div>
+                <div id="keen-slider-3" class="keen-slider lg:px-12 mt-7">
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/testimoni/Frame 6.png" class="" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/testimoni/Frame 7.png" class="" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/testimoni/Frame 8.png" class="" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/testimoni/Frame 9.png" class="" alt="">
+                    </div>
+                    <div class="keen-slider__slide">
+                        <img src="./dist/img/testimoni/Frame 10.png" class="" alt="">
+                    </div>
+                </div>
+                <div class="mt-8 flex gap-4 justify-center mx-auto">
+                    <button aria-label="Previous slide" id="keen-slider-previous-3"
+                        class="rounded-full border border-primary p-3 text-primary transition hover:bg-primary hover:text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-5 w-5 rtl:rotate-180">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                        </svg>
+                    </button>
+                    <button aria-label="Next slide" id="keen-slider-next-3"
+                        class="rounded-full border border-primary p-3 text-primary transition hover:bg-primary hover:text-white">
+                        <svg class="h-5 w-5 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
     <section style="background-image: url('./dist/img/outlet/Frame\ 201.png');"
         class="overflow-hidden bg-cover bg-center bg-no-repeat">
         <div class="bg-black/60 p-8 md:p-12 lg:px-16 lg:py-24">
@@ -1038,7 +1081,7 @@
                                 </summary>
     
                                 <p class="mt-4 px-4 text-center leading-relaxed text-gray-700">
-                                    seluruh mitra Pancong Pocong mengikuti harga yang telah ditentukan oleh kami. dan
+                                    Seluruh mitra Pancong Pocong mengikuti harga yang telah ditentukan oleh kami. Dan
                                     bisa di nego bila dirasa biaya operasional dinilai lebih tinggi dari cabang yang lain.
                                 </p>
                             </details>
@@ -1062,8 +1105,8 @@
                                 </summary>
     
                                 <p class="mt-4 px-4 text-center lg:text-start leading-relaxed text-gray-700">
-                                    mitra tidak diizinkan merubah SOP yang telah diberikan ketika pelunasan
-                                    pembayaran kemitraan
+                                    Mitra tidak diizinkan merubah SOP yang telah diberikan ketika pelunasan
+                                    pembayaran kemitraan.
                                 </p>
                             </details>
                         </div>
@@ -1084,8 +1127,8 @@
                                 </summary>
     
                                 <p class="mt-4 px-4 text-center lg:text-start leading-relaxed text-gray-700">
-                                    tim pancong pancong akan mendampingi dan memberikan arahan sesuai dengan
-                                    kebutuhan outlet hingga mendapatkan omset yang optimal
+                                    Tim pancong pancong akan mendampingi dan memberikan arahan sesuai dengan
+                                    kebutuhan outlet hingga mendapatkan omset yang optimal.
                                 </p>
                             </details>
                         </div>
@@ -1107,7 +1150,7 @@
                             </summary>
 
                             <p class="mt-4 px-4 text-center leading-relaxed text-gray-700">
-                                Calon mitra yang ingin bergabung dengan kesuksesan mitra pancong pancong yang telah join lebih awal bisa mulai dari berkomunikasi dengan tim Pancong Pocong
+                                Calon mitra yang ingin bergabung dengan kesuksesan mitra Pancong POcong yang telah join lebih awal bisa mulai dari berkomunikasi dengan tim Pancong Pocong.
                             </p>
                         </details>
                     </div>
@@ -1209,18 +1252,45 @@
             },
             []
         )
+        const keenSlider3 = new KeenSlider(
+            '#keen-slider-3',
+            {
+                loop: true,
+                slides: {
+                    origin: 'center',
+                    perView: 1, // Sesuaikan dengan jumlah slide yang Anda inginkan
+                    spacing: 16, // Sesuaikan dengan spasi antara slide
+                },
+                breakpoints: {
+                    '(min-width: 1024px)': {
+                        slides: {
+                            origin: 'auto',
+                            perView: 3, // Sesuaikan dengan jumlah slide yang Anda inginkan
+                            spacing: 32, // Sesuaikan dengan spasi antara slide
+                        },
+                    },
+                },
+            },
+            []
+        )
 
         const keenSliderPrevious = document.getElementById('keen-slider-previous')
         const keenSliderNext = document.getElementById('keen-slider-next')
 
         const keenSliderPrevious2 = document.getElementById('keen-slider-previous-2')
         const keenSliderNext2 = document.getElementById('keen-slider-next-2')
+        
+        const keenSliderPrevious3 = document.getElementById('keen-slider-previous-3')
+        const keenSliderNext3 = document.getElementById('keen-slider-next-3')
 
         keenSliderPrevious.addEventListener('click', () => keenSlider.prev())
         keenSliderNext.addEventListener('click', () => keenSlider.next())
 
         keenSliderPrevious2.addEventListener('click', () => keenSlider2.prev())
         keenSliderNext2.addEventListener('click', () => keenSlider2.next())
+
+        keenSliderPrevious3.addEventListener('click', () => keenSlider3.prev())
+        keenSliderNext3.addEventListener('click', () => keenSlider3.next())
     </script>
 </body>
 
